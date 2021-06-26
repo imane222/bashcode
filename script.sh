@@ -81,8 +81,8 @@ then
 	exit 1
 elif [ ! -z "$p_b" ] 
 then
-	echo $p_t " Has been Added to Banned list ."
-	echo $p_t >> banned_ip.txt
+	echo $p_b " Has been Added to Banned list ."
+	echo $p_b >> banned_ip.txt
 	exit 1
 elif [ ! -z "$p_c" ] 
 then
